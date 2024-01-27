@@ -66,6 +66,3 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/output/snake.svg" alt="Snake animation" />
-
-###
