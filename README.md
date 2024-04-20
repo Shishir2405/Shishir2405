@@ -44,7 +44,7 @@
 </div>
 
 ###
-
+<div align="left" class="img">
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/shishir_2405" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shishir_2405" height="30" width="40" /></a>
@@ -56,7 +56,7 @@
 <a href="https://discord.gg/807860974165032993" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="807860974165032993" height="30" width="40" /></a>
   <a href="https://www.hackerrank.com/shishirshrivast4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="shishirshrivast4" height="30" width="40" /></a>
 </p>
-
+</div>
 
 ###
 
