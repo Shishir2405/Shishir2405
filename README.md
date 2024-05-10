@@ -68,7 +68,13 @@
           height="30"
           width="40"
       /></a>
-      <a href="https://medium.com/@shishirshrivastava30" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/medium.svg" alt="@shishirshrivastava30" height="30" width="40" /></a></p>
+      <a href="https://medium.com/@shishirshrivastava30" target="blank"
+          ><img align="center"
+               src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/medium.svg"
+               alt="@shishirshrivastava30" 
+               height="30" 
+               width="40" 
+               /></a>
       <a href="https://www.youtube.com/c/shishirshrivastava997" target="blank"
         ><img
           align="center"
