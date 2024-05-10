@@ -3,10 +3,7 @@
 
 <h2 align="left">
     Hey, I'm Shishir Shrivastava
-    <img
-      src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif"
-      width="30"
-    />
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Waving Hand Medium-Light Skin Tone" width="40" height="40" />
   </h2>
   
   <p>
@@ -37,7 +34,7 @@
   
 
   <div align="left" class="img">
-    <h2 align="left">Connect with me:<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="30" height="30" /></h2>
+    <h2 align="left">Connect with me:<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="35" height="35" /></h2>
     <p align="left">
       <a href="https://twitter.com/shishir_2405" target="blank"
         ><img
