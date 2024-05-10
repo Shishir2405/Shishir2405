@@ -5,14 +5,14 @@
       width="30"
     />
   </h2>
-  ---
+  <hr>
   <p>
     👨🏻‍💻I'm Shishir Shrivastava, a dedicated full-stack web developer with a passion
     for open-source projects. My expertise lies in building robust and scalable
     MERN stack applications and microservices. Proficient in both frontend and
     backend development
   </p>
-  ---
+  <hr>
 
   <div align="center">
 <img
