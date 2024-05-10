@@ -3,7 +3,7 @@
 
 <h2 align="left">
     Hey, I'm Shishir Shrivastava
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Waving Hand Medium-Light Skin Tone" width="40" height="40" />
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" alt="Waving Hand Medium-Light Skin Tone" width="50" height="50" />
   </h2>
   
   <p>
@@ -34,7 +34,7 @@
   
 
   <div align="left" class="img">
-    <h2 align="left">Connect with me:<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="35" height="35" /></h2>
+    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="40" height="40" /> &nbsp; Connect with me:</h2>
     <p align="left">
       <a href="https://twitter.com/shishir_2405" target="blank"
         ><img
@@ -113,7 +113,7 @@
   </div>
 
   <!-- About Me -->
-  <h2 align="left">About me👨‍💻</h2>
+  <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Light%20Skin%20Tone.png" alt="Man Technologist Medium-Light Skin Tone" width="40" height="40" /> &nbsp; About me</h2>
   
   ```JavaScript
   const Shishir2405 = {
@@ -126,7 +126,7 @@
   ```
     
   <div align="left" class="img">
-    <h2 align="left">Languages and Tools:</h2>
+    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="40" height="40" /> &nbsp; Languages and Tools:</h2>
     <p align="left">
         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/c-original.svg" alt="C" width="40" height="40" />
 
