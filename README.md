@@ -1,4 +1,4 @@
-![github-banner](https://ik.imagekit.io/Shishir2405/github-header-image%20(1).png?updatedAt=1715363301376)
+![github-banner](https://ik.imagekit.io/Shishir2405/github-header-image%20(1)_out.png?updatedAt=1715363629487)
 
 
 <h2 align="left">
