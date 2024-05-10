@@ -37,7 +37,7 @@
   
 
   <div align="left" class="img">
-    <h2 align="left">Connect with me:</h2>
+    <h2 align="left">Connect with me:<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="30" height="30" /></h2>
     <p align="left">
       <a href="https://twitter.com/shishir_2405" target="blank"
         ><img
