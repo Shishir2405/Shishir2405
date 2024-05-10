@@ -5,13 +5,15 @@
       width="30"
     />
   </h2>
-  
+  ---
   <p>
     👨🏻‍💻I'm Shishir Shrivastava, a dedicated full-stack web developer with a passion
     for open-source projects. My expertise lies in building robust and scalable
     MERN stack applications and microservices. Proficient in both frontend and
     backend development
   </p>
+  ---
+
   <div align="center">
 <img
       src="https://github-readme-stats.vercel.app/api?username=Shishir2405&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true&order=1"
