@@ -12,8 +12,10 @@
     MERN stack applications and microservices. Proficient in both frontend and
     backend development
   </p>
- 
-
+ <p>
+    🚀Experienced JavaScript developer with a passion for hackathons and a burgeoning interest in AI and machine learning. While Java is my forte, I'm keen on expanding my skills through hackathons and collaborative projects, steering clear of community building and mentoring for now.
+ </p>
+ <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="37" height="37" /> &nbsp; Stats</h2>
   <div align="center">
 <img
       src="https://github-readme-stats.vercel.app/api?username=Shishir2405&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false&border_radius=5&order=3"
@@ -34,7 +36,7 @@
   
 
   <div align="left" class="img">
-    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="40" height="40" /> &nbsp; Connect with me:</h2>
+    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="40" height="40" /> &nbsp; Connect with me</h2>
     <p align="left">
       <a href="https://twitter.com/shishir_2405" target="blank"
         ><img
