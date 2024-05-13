@@ -7,13 +7,13 @@
   </h2>
   
   <p>
-    👨🏻‍💻I'm Shishir Shrivastava, a dedicated full-stack web developer with a passion
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Two%20Hearts.png" alt="Two Hearts" width="25" height="25" />I'm Shishir Shrivastava, a dedicated full-stack web developer with a passion
     for open-source projects. My expertise lies in building robust and scalable
     MERN stack applications and microservices. Proficient in both frontend and
     backend development
   </p>
  <p>
-    🚀Experienced JavaScript developer with a passion for hackathons and a burgeoning interest in AI and machine learning. While Java is my forte, I'm keen on expanding my skills through hackathons and collaborative projects, steering clear of community building and mentoring for now.
+ <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />Experienced JavaScript developer with a passion for hackathons and a burgeoning interest in AI and machine learning. While Java is my forte, I'm keen on expanding my skills through hackathons and collaborative projects, steering clear of community building and mentoring for now.
  </p>
  <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="37" height="37" /> &nbsp; Stats</h2>
   <div align="center">
@@ -128,7 +128,7 @@
   ```
     
   <div align="left" class="img">
-    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="40" height="40" /> &nbsp; Languages and Tools:</h2>
+    <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="40" height="40" /> &nbsp; Languages and Tools</h2>
     <p align="left">
         <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/c-original.svg" alt="C" width="40" height="40" />
 
@@ -185,4 +185,4 @@
 </div>
   
 
-  
+
