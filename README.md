@@ -7,7 +7,7 @@
   </h2>
   
   <p>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Two%20Hearts.png" alt="Two Hearts" width="25" height="25" />I'm Shishir Shrivastava, a dedicated full-stack web developer with a passion
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Two%20Hearts.png" alt="Two Hearts" width="25" height="25" />I'm Shishir Shrivastava, a dedicated full-stack Web developer with a passion
     for open-source projects. My expertise lies in building robust and scalable
     MERN stack applications and microservices. Proficient in both frontend and
     backend development
