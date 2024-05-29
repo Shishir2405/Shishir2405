@@ -10,7 +10,7 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Two%20Hearts.png" alt="Two Hearts" width="25" height="25" />I'm Shishir Shrivastava, a dedicated full-stack Web developer with a passion
     for open-source projects. My expertise lies in building robust and scalable
     MERN stack applications and microservices. Proficient in both frontend and
-    backend development
+    backend development.
   </p>
  <p>
  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />Experienced JavaScript developer with a passion for hackathons and a burgeoning interest in AI and machine learning. While Java is my forte, I'm keen on expanding my skills through hackathons and collaborative projects, steering clear of community building and mentoring for now.
