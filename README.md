@@ -18,17 +18,17 @@
  <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart Increasing" width="37" height="37" /> &nbsp; Stats</h2>
   <div align="center">
 <img
-      src="https://github-readme-stats.vercel.app/api?username=Shishir2405&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false&border_radius=5&order=3"
+      src="https://github-readme-stats.vercel.app/api?username=Shishir2405&theme=radical&hide_border=false&include_all_commits=false&count_private=true"
       height="150"
       alt="stats graph"
     />
 <img
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=Shishir2405&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false&border_radius=5&order=3"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=Shishir2405&theme=radical&hide_border=false"
       height="150"
       alt="languages graph"
     />
 <img
-      src="https://streak-stats.demolab.com?user=Shishir2405&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shishir2405&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact"
       height="150"
       alt="streak graph"
     />
