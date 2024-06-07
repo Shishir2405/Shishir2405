@@ -51,8 +51,8 @@
   <a href="mailto:shishirshrivastava30@gmail.com" target="_blank">
     <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-
-    </p>
+</p>
+   
   </div>
 
   <!-- About Me -->
@@ -71,7 +71,8 @@
   <div align="left" class="img">
     <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="40" height="40" /> &nbsp; Languages and Tools</h2>
     <!-- Languages -->
-#### 🔥Languages:
+      
+#### Languages 🔥:
 <div>
   <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />	
