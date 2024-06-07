@@ -35,82 +35,23 @@
   </div>
   
 
-  <div align="left" class="img">
+ <div align="left" class="img">
     <h2 align="left"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="40" height="40" /> &nbsp; Connect with me</h2>
     <p align="left">
-      <a href="https://twitter.com/shishir_2405" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-          alt="shishir_2405"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://instagram.com/_shishir_shrivstav_24" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-          alt="_shishir_shrivstav_24"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://linkedin.com/in/shishirshrivastava2405" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-          alt="shishirshrivastava2405"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://stackoverflow.com/users/22436503" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg"
-          alt="22436503"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://medium.com/@shishirshrivastava30" target="blank"
-          ><img align="center"
-               src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/medium.svg"
-               alt="@shishirshrivastava30" 
-               height="30" 
-               width="40" 
-               /></a>
-      <a href="https://www.youtube.com/c/shishirshrivastava997" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-          alt="shishirshrivastava997"
-          height="30"
-          width="40"
-      /></a>
-      <a
-        href="https://auth.geeksforgeeks.org/user/shishir_shrivastava24"
-        target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg"
-          alt="shishir_shrivastava24"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://discord.gg/807860974165032993" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
-          alt="807860974165032993"
-          height="30"
-          width="40"
-      /></a>
-      <a href="https://www.hackerrank.com/shishirshrivast4" target="blank"
-        ><img
-          align="center"
-          src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg"
-          alt="shishirshrivast4"
-          height="30"
-          width="40"
-      /></a>
+      <a href="https://linkedin.com/in/shishirshrivastava2405" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/shishir_2405" target="_blank">
+    <img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/>
+  </a>
+      
+  <a href="https://instagram.com/_shishir_shrivstav_24" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/>
+  </a>
+  <a href="mailto:shishirshrivastava30@gmail.com" target="_blank">
+    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
     </p>
   </div>
 
