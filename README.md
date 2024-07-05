@@ -28,11 +28,6 @@
       height="150"
       alt="languages graph"
     />
-<img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shishir2405&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact"
-      height="150"
-      alt="streak graph"
-    />
   </div>
   
 
