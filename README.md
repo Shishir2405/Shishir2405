@@ -28,6 +28,14 @@
       height="150"
       alt="languages graph"
     />
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shishir2405&theme=radical&hide_border=false&layout=compact"
+      height="150"
+      alt="languages graph"
+    />
+
+      (https://github-readme-stats.vercel.app/api/top-langs/?username=Shishir2405&theme=radical&hide_border=false&layout=compact)
+
   </div>
   
 
