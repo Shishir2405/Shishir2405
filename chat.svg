@@ -1,7 +1,6 @@
 <svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-    
+
     .bubble-left {
       fill: #b5ff6d;
       stroke: #000000;
