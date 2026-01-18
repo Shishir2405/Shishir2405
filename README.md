@@ -1,4 +1,8 @@
-![github-banner](<https://ik.imagekit.io/Shishir2405/github-header-image%20(1)_out.png?updatedAt=1715363629487>)
+
+
+
+
+<img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/chat.svg">
 
 <h2 align="left">
     Hey, I'm Shishir Shrivastava
