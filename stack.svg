@@ -1,0 +1,158 @@
+<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+
+    .card-bg {
+      fill: #0d1117;
+      stroke: #21262d;
+      stroke-width: 1;
+    }
+
+    .section-label {
+      fill: #8b949e;
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+
+    .tech-pill {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1;
+      rx: 8;
+    }
+
+    .tech-pill-accent {
+      fill: #161b22;
+      stroke: #7ee787;
+      stroke-width: 1;
+      rx: 8;
+      stroke-opacity: 0.5;
+    }
+
+    .tech-text {
+      fill: #e6edf3;
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .tech-text-accent {
+      fill: #7ee787;
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .line-sep {
+      stroke: #21262d;
+      stroke-width: 1;
+    }
+
+    .row-1 { animation: rowFade 0.4s 0.1s forwards; opacity: 0; }
+    .row-2 { animation: rowFade 0.4s 0.3s forwards; opacity: 0; }
+    .row-3 { animation: rowFade 0.4s 0.5s forwards; opacity: 0; }
+    .row-4 { animation: rowFade 0.4s 0.7s forwards; opacity: 0; }
+    .row-5 { animation: rowFade 0.4s 0.9s forwards; opacity: 0; }
+
+    @keyframes rowFade {
+      to { opacity: 1; }
+    }
+  </style>
+
+  <!-- Main card -->
+  <rect width="800" height="340" rx="12" class="card-bg"/>
+
+  <!-- LANGUAGES ROW -->
+  <g class="row-1">
+    <text x="28" y="38" class="section-label">LANGUAGES</text>
+
+    <rect x="28" y="48" width="84" height="30" class="tech-pill-accent"/>
+    <text x="40" y="67" class="tech-text-accent">JavaScript</text>
+
+    <rect x="120" y="48" width="90" height="30" class="tech-pill-accent"/>
+    <text x="132" y="67" class="tech-text-accent">TypeScript</text>
+
+    <rect x="218" y="48" width="58" height="30" class="tech-pill"/>
+    <text x="234" y="67" class="tech-text">Java</text>
+
+    <rect x="284" y="48" width="68" height="30" class="tech-pill"/>
+    <text x="298" y="67" class="tech-text">Python</text>
+  </g>
+
+  <line x1="28" y1="94" x2="772" y2="94" class="line-sep"/>
+
+  <!-- FRONTEND ROW -->
+  <g class="row-2">
+    <text x="28" y="118" class="section-label">FRONTEND</text>
+
+    <rect x="28" y="128" width="72" height="30" class="tech-pill-accent"/>
+    <text x="44" y="147" class="tech-text-accent">React</text>
+
+    <rect x="108" y="128" width="76" height="30" class="tech-pill-accent"/>
+    <text x="121" y="147" class="tech-text-accent">Next.js</text>
+
+    <rect x="192" y="128" width="64" height="30" class="tech-pill"/>
+    <text x="205" y="147" class="tech-text">Redux</text>
+
+    <rect x="264" y="128" width="92" height="30" class="tech-pill"/>
+    <text x="276" y="147" class="tech-text">Tailwind CSS</text>
+  </g>
+
+  <line x1="28" y1="174" x2="772" y2="174" class="line-sep"/>
+
+  <!-- BACKEND ROW -->
+  <g class="row-3">
+    <text x="28" y="198" class="section-label">BACKEND</text>
+
+    <rect x="28" y="208" width="76" height="30" class="tech-pill-accent"/>
+    <text x="42" y="227" class="tech-text-accent">Node.js</text>
+
+    <rect x="112" y="208" width="84" height="30" class="tech-pill"/>
+    <text x="124" y="227" class="tech-text">Express.js</text>
+
+    <rect x="204" y="208" width="72" height="30" class="tech-pill"/>
+    <text x="216" y="227" class="tech-text">Django</text>
+
+    <rect x="284" y="208" width="88" height="30" class="tech-pill"/>
+    <text x="296" y="227" class="tech-text">REST APIs</text>
+
+    <rect x="380" y="208" width="90" height="30" class="tech-pill"/>
+    <text x="392" y="227" class="tech-text">WebSocket</text>
+
+    <rect x="478" y="208" width="80" height="30" class="tech-pill"/>
+    <text x="490" y="227" class="tech-text">Socket.io</text>
+  </g>
+
+  <line x1="28" y1="254" x2="772" y2="254" class="line-sep"/>
+
+  <!-- DATA & CLOUD ROW -->
+  <g class="row-4">
+    <text x="28" y="278" class="section-label">DATABASES &amp; CLOUD</text>
+
+    <rect x="28" y="288" width="96" height="30" class="tech-pill-accent"/>
+    <text x="40" y="307" class="tech-text-accent">PostgreSQL</text>
+
+    <rect x="132" y="288" width="82" height="30" class="tech-pill"/>
+    <text x="144" y="307" class="tech-text">MongoDB</text>
+
+    <rect x="222" y="288" width="64" height="30" class="tech-pill"/>
+    <text x="236" y="307" class="tech-text">MySQL</text>
+
+    <rect x="294" y="288" width="72" height="30" class="tech-pill"/>
+    <text x="308" y="307" class="tech-text">Prisma</text>
+
+    <rect x="374" y="288" width="76" height="30" class="tech-pill"/>
+    <text x="386" y="307" class="tech-text">Firebase</text>
+
+    <rect x="458" y="288" width="60" height="30" class="tech-pill"/>
+    <text x="474" y="307" class="tech-text">AWS</text>
+
+    <rect x="526" y="288" width="72" height="30" class="tech-pill"/>
+    <text x="538" y="307" class="tech-text">Docker</text>
+
+    <rect x="606" y="288" width="62" height="30" class="tech-pill"/>
+    <text x="618" y="307" class="tech-text">CI/CD</text>
+  </g>
+</svg>

@@ -1,116 +1,229 @@
-<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
 
-    .bubble-left {
-      fill: #b5ff6d;
-      stroke: #000000;
-      stroke-width: 1.5;
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+    .terminal-bg {
+      fill: #0d1117;
+      rx: 12;
     }
-    
-    .bubble-right {
-      fill: #000000;
-      stroke: #000000;
-      stroke-width: 1.5;
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+
+    .terminal-header {
+      fill: #161b22;
     }
-    
-    .text-left {
-      fill: #000000;
-      font-size: 14px;
-      font-family: 'Poppins', sans-serif;
+
+    .dot-red { fill: #ff5f57; }
+    .dot-yellow { fill: #febc2e; }
+    .dot-green { fill: #28c840; }
+
+    .title-text {
+      fill: #8b949e;
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 12px;
       font-weight: 500;
-      letter-spacing: 0.01em;
     }
-    
-    .text-right {
-      fill: #ffffff;
-      font-size: 14px;
-      font-family: 'Poppins', sans-serif;
+
+    .prompt {
+      fill: #7ee787;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13.5px;
       font-weight: 500;
-      letter-spacing: 0.01em;
     }
-    
-    .emoji {
+
+    .command {
+      fill: #e6edf3;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13.5px;
+      font-weight: 400;
+    }
+
+    .key {
+      fill: #79c0ff;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
       font-size: 13px;
+      font-weight: 400;
     }
-    
-    /* Corrected sequential message animations */
-    .msg-1 { animation: slideInRight 0.4s 0.2s forwards; opacity: 0; transform: translateX(20px); }
-    .msg-2 { animation: slideInLeft 0.4s 0.8s forwards; opacity: 0; transform: translateX(-20px); }
-    .msg-3 { animation: slideInRight 0.4s 1.4s forwards; opacity: 0; transform: translateX(20px); }
-    .msg-4 { animation: slideInLeft 0.4s 2.0s forwards; opacity: 0; transform: translateX(-20px); }
-    .msg-5 { animation: slideInRight 0.4s 2.6s forwards; opacity: 0; transform: translateX(20px); }
-    .msg-6 { animation: slideInLeft 0.4s 3.2s forwards; opacity: 0; transform: translateX(-20px); }
-    .msg-7 { animation: slideInRight 0.4s 3.8s forwards; opacity: 0; transform: translateX(20px); }
-    
-    @keyframes slideInLeft {
-      to { opacity: 1; transform: translateX(0); }
+
+    .value {
+      fill: #e6edf3;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13px;
+      font-weight: 400;
     }
-    
-    @keyframes slideInRight {
-      to { opacity: 1; transform: translateX(0); }
+
+    .string {
+      fill: #a5d6ff;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .bracket {
+      fill: #8b949e;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .accent {
+      fill: #d2a8ff;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .comment {
+      fill: #6e7681;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      font-size: 12.5px;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .cursor {
+      fill: #e6edf3;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .line-1 { animation: fadeIn 0.3s 0.2s forwards; opacity: 0; }
+    .line-2 { animation: fadeIn 0.3s 0.5s forwards; opacity: 0; }
+    .line-3 { animation: fadeIn 0.3s 0.8s forwards; opacity: 0; }
+    .line-4 { animation: fadeIn 0.3s 1.0s forwards; opacity: 0; }
+    .line-5 { animation: fadeIn 0.3s 1.2s forwards; opacity: 0; }
+    .line-6 { animation: fadeIn 0.3s 1.4s forwards; opacity: 0; }
+    .line-7 { animation: fadeIn 0.3s 1.6s forwards; opacity: 0; }
+    .line-8 { animation: fadeIn 0.3s 1.8s forwards; opacity: 0; }
+    .line-9 { animation: fadeIn 0.3s 2.0s forwards; opacity: 0; }
+    .line-10 { animation: fadeIn 0.3s 2.2s forwards; opacity: 0; }
+    .line-11 { animation: fadeIn 0.3s 2.4s forwards; opacity: 0; }
+    .line-12 { animation: fadeIn 0.3s 2.6s forwards; opacity: 0; }
+    .line-13 { animation: fadeIn 0.3s 2.8s forwards; opacity: 0; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
     }
   </style>
 
-  <!-- Message 1: Right side (Hello) -->
-  <g class="msg-1">
-    <rect x="480" y="30" width="280" height="42" rx="18" class="bubble-right"/>
-    <text x="500" y="55" class="text-right">
-      <tspan class="emoji">👋</tspan> Hello there! I'm Shishir
-    </text>
+  <!-- Terminal window -->
+  <rect width="800" height="400" class="terminal-bg"/>
+  <rect width="800" height="36" class="terminal-header" rx="12"/>
+  <rect x="0" y="24" width="800" height="12" class="terminal-header"/>
+
+  <!-- Window controls -->
+  <circle cx="20" cy="18" r="6" class="dot-red"/>
+  <circle cx="40" cy="18" r="6" class="dot-yellow"/>
+  <circle cx="60" cy="18" r="6" class="dot-green"/>
+
+  <!-- Title bar text -->
+  <text x="400" y="22" text-anchor="middle" class="title-text">shishir@dev ~ /about-me</text>
+
+  <!-- Line 1: Command -->
+  <g class="line-1">
+    <text x="28" y="68" class="prompt">$</text>
+    <text x="44" y="68" class="command">whoami --verbose</text>
   </g>
-  
-  <!-- Message 2: Left side (Response) -->
-  <g class="msg-2">
-    <rect x="40" y="85" width="200" height="42" rx="18" class="bubble-left"/>
-    <text x="60" y="110" class="text-left">Hey! What do you do?</text>
+
+  <!-- Line 2: Name -->
+  <g class="line-2">
+    <text x="28" y="94" class="key">name</text>
+    <text x="100" y="94" class="bracket">:</text>
+    <text x="116" y="94" class="string">"Shishir Shrivastava"</text>
   </g>
-  
-  <!-- Message 3: Right side (Answer) -->
-  <g class="msg-3">
-    <rect x="300" y="140" width="460" height="60" rx="18" class="bubble-right"/>
-    <text x="320" y="160" class="text-right">
-      <tspan class="emoji">💻</tspan> Full Stack Developer with
-    </text>
-    <text x="320" y="185" class="text-right">
-      React, Next.js, Node.js, AWS, PostgreSQL
-    </text>
+
+  <!-- Line 3: Role -->
+  <g class="line-3">
+    <text x="28" y="118" class="key">role</text>
+    <text x="100" y="118" class="bracket">:</text>
+    <text x="116" y="118" class="string">"Full Stack Developer"</text>
   </g>
-  
-  <!-- Message 4: Left side (Question) -->
-  <g class="msg-4">
-    <rect x="40" y="215" width="240" height="42" rx="18" class="bubble-left"/>
-    <text x="60" y="240" class="text-left">Any work experience?</text>
+
+  <!-- Line 4: Location -->
+  <g class="line-4">
+    <text x="28" y="142" class="key">location</text>
+    <text x="100" y="142" class="bracket">:</text>
+    <text x="116" y="142" class="string">"Indore, India"</text>
   </g>
-  
-  <!-- Message 5: Right side (Answer) -->
-  <g class="msg-5">
-    <rect x="200" y="270" width="560" height="78" rx="18" class="bubble-right"/>
-    <text x="220" y="295" class="text-right">
-      <tspan class="emoji">🚀</tspan> Currently at Unjob.ai (since Aug 2025)
-    </text>
-    <text x="220" y="330" class="text-right">
-      2x SIH National Winner, Hack the Mountains Winner
-    </text>
+
+  <!-- Line 5: Current -->
+  <g class="line-5">
+    <text x="28" y="166" class="key">current</text>
+    <text x="100" y="166" class="bracket">:</text>
+    <text x="116" y="166" class="string">"Full Stack Developer @ Unjob.ai"</text>
   </g>
-  
-  <!-- Message 6: Left side (Question) -->
-  <g class="msg-6">
-    <rect x="40" y="365" width="180" height="42" rx="18" class="bubble-left"/>
-    <text x="60" y="390" class="text-left">
-      <tspan class="emoji">📧</tspan> Contact?
-    </text>
+
+  <!-- Line 6: Stack -->
+  <g class="line-6">
+    <text x="28" y="196" class="key">stack</text>
+    <text x="100" y="196" class="bracket">:</text>
+    <text x="116" y="196" class="bracket">[</text>
+    <text x="126" y="196" class="accent">React</text>
+    <text x="178" y="196" class="bracket">,</text>
+    <text x="190" y="196" class="accent">Next.js</text>
+    <text x="262" y="196" class="bracket">,</text>
+    <text x="274" y="196" class="accent">Node.js</text>
+    <text x="346" y="196" class="bracket">,</text>
+    <text x="358" y="196" class="accent">TypeScript</text>
+    <text x="454" y="196" class="bracket">,</text>
+    <text x="466" y="196" class="accent">PostgreSQL</text>
+    <text x="566" y="196" class="bracket">]</text>
   </g>
-  
-  <!-- Message 7: Right side (Contact info) -->
-  <g class="msg-7">
-    <rect x="230" y="420" width="530" height="60" rx="18" class="bubble-right"/>
-    <text x="250" y="445" class="text-right">
-      shishirshrivastava30@gmail.com
-    </text>
-    <text x="250" y="470" class="text-right">
-      +91 8109528573 | Indore, India
-    </text>
+
+  <!-- Line 7: Achievements -->
+  <g class="line-7">
+    <text x="28" y="226" class="key">awards</text>
+    <text x="100" y="226" class="bracket">:</text>
+    <text x="116" y="226" class="bracket">[</text>
+    <text x="126" y="226" class="string">"2x SIH National Winner"</text>
+    <text x="338" y="226" class="bracket">,</text>
+    <text x="350" y="226" class="string">"Hack the Mountains Winner"</text>
+    <text x="588" y="226" class="bracket">]</text>
+  </g>
+
+  <!-- Line 8: Education -->
+  <g class="line-8">
+    <text x="28" y="250" class="key">edu</text>
+    <text x="100" y="250" class="bracket">:</text>
+    <text x="116" y="250" class="string">"B.E. Computer Engineering | CGPA 9.47/10"</text>
+  </g>
+
+  <!-- Line 9: Users -->
+  <g class="line-9">
+    <text x="28" y="274" class="key">impact</text>
+    <text x="100" y="274" class="bracket">:</text>
+    <text x="116" y="274" class="string">"10,000+ users across govt &amp; industry projects"</text>
+  </g>
+
+  <!-- Line 10: Blank + separator -->
+  <g class="line-10">
+    <text x="28" y="304" class="comment">// building scalable systems, one deploy at a time</text>
+  </g>
+
+  <!-- Line 11: Links -->
+  <g class="line-11">
+    <text x="28" y="334" class="key">links</text>
+    <text x="100" y="334" class="bracket">:</text>
+    <text x="116" y="334" class="bracket">{</text>
+    <text x="130" y="334" class="key">web</text>
+    <text x="162" y="334" class="bracket">:</text>
+    <text x="174" y="334" class="string">shishir24.in</text>
+    <text x="284" y="334" class="bracket">|</text>
+    <text x="298" y="334" class="key">gh</text>
+    <text x="322" y="334" class="bracket">:</text>
+    <text x="334" y="334" class="string">Shishir2405</text>
+    <text x="432" y="334" class="bracket">|</text>
+    <text x="446" y="334" class="key">mail</text>
+    <text x="486" y="334" class="bracket">:</text>
+    <text x="498" y="334" class="string">shishirshrivastava30@gmail.com</text>
+    <text x="738" y="334" class="bracket">}</text>
+  </g>
+
+  <!-- Line 12: New prompt with cursor -->
+  <g class="line-12">
+    <text x="28" y="368" class="prompt">$</text>
+    <rect x="44" y="356" width="8" height="16" class="cursor"/>
   </g>
 </svg>
