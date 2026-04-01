@@ -98,13 +98,11 @@ Academic Rank 1 for 3 consecutive years. CGPA: 9.47/10.
 
 ---
 
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Shishir2405&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=7ee787" height="160"/>
-  &nbsp;&nbsp;
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Shishir2405&theme=github-dark-blue&hide_border=true&background=0d1117&ring=7ee787&fire=e6edf3&currStreakLabel=e6edf3&sideLabels=8b949e&dates=6e7681" height="160"/>
-
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shishir2405&theme=github_dark" height="180" alt="GitHub Stats"/>
+  &nbsp;
+  <img src="https://streak-stats.demolab.com?user=Shishir2405&theme=github-dark-blue&hide_border=true&background=0d1117&ring=7ee787&fire=e6edf3&currStreakLabel=e6edf3&sideLabels=8b949e&dates=6e7681" height="180" alt="GitHub Streak"/>
+</p>
 
 <br/>
 
