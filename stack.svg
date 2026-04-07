@@ -1,13 +1,8 @@
-<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="385" viewBox="0 0 800 385" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
 
-    .card-bg {
-      fill: #0d1117;
-      stroke: #21262d;
-      stroke-width: 1;
-    }
-
+    .card-bg { fill: #0d1117; stroke: #21262d; stroke-width: 1; }
     .section-label {
       fill: #8b949e;
       font-family: 'Inter', -apple-system, sans-serif;
@@ -15,144 +10,375 @@
       font-weight: 600;
       letter-spacing: 1.5px;
     }
-
-    .tech-pill {
-      fill: #161b22;
-      stroke: #30363d;
-      stroke-width: 1;
-      rx: 8;
-    }
-
-    .tech-pill-accent {
-      fill: #161b22;
-      stroke: #7ee787;
-      stroke-width: 1;
-      rx: 8;
-      stroke-opacity: 0.5;
-    }
-
-    .tech-text {
+    .pill { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8; }
+    .pill-accent { fill: #161b22; stroke: #7ee787; stroke-width: 1; rx: 8; stroke-opacity: 0.5; }
+    .tech-name {
       fill: #e6edf3;
       font-family: 'Inter', -apple-system, sans-serif;
       font-size: 12px;
       font-weight: 500;
     }
-
-    .tech-text-accent {
+    .tech-name-accent {
       fill: #7ee787;
       font-family: 'Inter', -apple-system, sans-serif;
       font-size: 12px;
       font-weight: 500;
     }
-
-    .line-sep {
-      stroke: #21262d;
-      stroke-width: 1;
+    .icon-text {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-weight: 700;
+      text-anchor: middle;
     }
+    .line-sep { stroke: #21262d; stroke-width: 1; }
 
-    .row-1 { animation: rowFade 0.4s 0.1s forwards; opacity: 0; }
-    .row-2 { animation: rowFade 0.4s 0.3s forwards; opacity: 0; }
-    .row-3 { animation: rowFade 0.4s 0.5s forwards; opacity: 0; }
-    .row-4 { animation: rowFade 0.4s 0.7s forwards; opacity: 0; }
-    .row-5 { animation: rowFade 0.4s 0.9s forwards; opacity: 0; }
-
-    @keyframes rowFade {
-      to { opacity: 1; }
-    }
+    .r1 { animation: rowIn 0.4s 0.1s forwards; opacity: 0; }
+    .r2 { animation: rowIn 0.4s 0.3s forwards; opacity: 0; }
+    .r3 { animation: rowIn 0.4s 0.5s forwards; opacity: 0; }
+    .r4 { animation: rowIn 0.4s 0.7s forwards; opacity: 0; }
+    .r5 { animation: rowIn 0.4s 0.9s forwards; opacity: 0; }
+    @keyframes rowIn { to { opacity: 1; } }
   </style>
 
-  <!-- Main card -->
-  <rect width="800" height="340" rx="12" class="card-bg"/>
+  <rect width="800" height="385" rx="12" class="card-bg"/>
 
-  <!-- LANGUAGES ROW -->
-  <g class="row-1">
-    <text x="28" y="38" class="section-label">LANGUAGES</text>
+  <defs>
+    <!-- ===== ICON DEFINITIONS (14×14 each) ===== -->
 
-    <rect x="28" y="48" width="84" height="30" class="tech-pill-accent"/>
-    <text x="40" y="67" class="tech-text-accent">JavaScript</text>
+    <!-- JavaScript -->
+    <g id="i-js">
+      <rect width="14" height="14" rx="3" fill="#F7DF1E"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#000">JS</text>
+    </g>
+    <!-- TypeScript -->
+    <g id="i-ts">
+      <rect width="14" height="14" rx="3" fill="#3178C6"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">TS</text>
+    </g>
+    <!-- Java -->
+    <g id="i-java">
+      <rect width="14" height="14" rx="3" fill="#E76F00"/>
+      <text x="7" y="10.5" class="icon-text" font-size="8" fill="#FFF">J</text>
+    </g>
+    <!-- Python -->
+    <g id="i-py">
+      <rect width="14" height="14" rx="3" fill="#3776AB"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFD43B">Py</text>
+    </g>
 
-    <rect x="120" y="48" width="90" height="30" class="tech-pill-accent"/>
-    <text x="132" y="67" class="tech-text-accent">TypeScript</text>
+    <!-- React (atom symbol) -->
+    <g id="i-react">
+      <rect width="14" height="14" rx="3" fill="#20232a"/>
+      <g transform="translate(7,7)">
+        <circle r="1.3" fill="#61DAFB"/>
+        <ellipse rx="5" ry="1.8" fill="none" stroke="#61DAFB" stroke-width="0.6"/>
+        <ellipse rx="5" ry="1.8" fill="none" stroke="#61DAFB" stroke-width="0.6" transform="rotate(60)"/>
+        <ellipse rx="5" ry="1.8" fill="none" stroke="#61DAFB" stroke-width="0.6" transform="rotate(-60)"/>
+      </g>
+    </g>
+    <!-- Next.js -->
+    <g id="i-next">
+      <circle cx="7" cy="7" r="7" fill="#000" stroke="#444" stroke-width="0.5"/>
+      <text x="7" y="10.5" class="icon-text" font-size="9" fill="#FFF">N</text>
+    </g>
+    <!-- Redux -->
+    <g id="i-redux">
+      <rect width="14" height="14" rx="3" fill="#764ABC"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">Rx</text>
+    </g>
+    <!-- Tailwind CSS -->
+    <g id="i-tw">
+      <rect width="14" height="14" rx="3" fill="#0F172A"/>
+      <g transform="translate(2,4)">
+        <path d="M5,0 C6.5,0 7.2,0.8 7.5,2.3 C6.7,1.5 5.8,1.2 4.8,1.5 C4.2,1.7 3.8,2.2 3.3,2.8 C2.5,3.7 1.5,4.8 0,4.8 C-1.5,4.8 -2.2,4 -2.5,2.5" fill="none" stroke="#06B6D4" stroke-width="1.2" stroke-linecap="round" transform="translate(2.5,1) scale(0.9)"/>
+      </g>
+    </g>
 
-    <rect x="218" y="48" width="58" height="30" class="tech-pill"/>
-    <text x="234" y="67" class="tech-text">Java</text>
+    <!-- Node.js (hexagon) -->
+    <g id="i-node">
+      <polygon points="7,0.5 13,4 13,10.5 7,14 1,10.5 1,4" fill="#339933"/>
+      <text x="7" y="10" class="icon-text" font-size="7" fill="#FFF">N</text>
+    </g>
+    <!-- Express.js -->
+    <g id="i-express">
+      <rect width="14" height="14" rx="3" fill="#000"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">Ex</text>
+    </g>
+    <!-- Django -->
+    <g id="i-django">
+      <rect width="14" height="14" rx="3" fill="#092E20"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">Dj</text>
+    </g>
+    <!-- REST APIs -->
+    <g id="i-api">
+      <rect width="14" height="14" rx="3" fill="#FF6C37"/>
+      <text x="7" y="10.5" class="icon-text" font-size="6" fill="#FFF">API</text>
+    </g>
+    <!-- WebSocket -->
+    <g id="i-ws">
+      <rect width="14" height="14" rx="3" fill="#4353FF"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">WS</text>
+    </g>
+    <!-- Socket.io -->
+    <g id="i-sio">
+      <circle cx="7" cy="7" r="7" fill="#010101" stroke="#444" stroke-width="0.5"/>
+      <text x="7" y="10" class="icon-text" font-size="7" fill="#FFF">Si</text>
+    </g>
 
-    <rect x="284" y="48" width="68" height="30" class="tech-pill"/>
-    <text x="298" y="67" class="tech-text">Python</text>
+    <!-- PostgreSQL -->
+    <g id="i-pg">
+      <rect width="14" height="14" rx="3" fill="#4169E1"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">Pg</text>
+    </g>
+    <!-- MongoDB (leaf) -->
+    <g id="i-mongo">
+      <rect width="14" height="14" rx="3" fill="#00684A"/>
+      <g transform="translate(4.5,1.5)">
+        <path d="M2.5,0 C2.5,0 4.5,3 4.5,6.5 C4.5,9 3.5,10.5 2.5,11 C1.5,10.5 0.5,9 0.5,6.5 C0.5,3 2.5,0 2.5,0Z" fill="#47A248"/>
+      </g>
+    </g>
+    <!-- MySQL -->
+    <g id="i-mysql">
+      <rect width="14" height="14" rx="3" fill="#4479A1"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">My</text>
+    </g>
+    <!-- Prisma -->
+    <g id="i-prisma">
+      <rect width="14" height="14" rx="3" fill="#2D3748"/>
+      <polygon points="7,2 12,11 4,11" fill="#FFF" opacity="0.9"/>
+    </g>
+    <!-- Firebase -->
+    <g id="i-firebase">
+      <rect width="14" height="14" rx="3" fill="#1A1A2E"/>
+      <g transform="translate(3,2)">
+        <polygon points="4,0 7,5 4,10 1,5" fill="#FFCA28"/>
+        <polygon points="4,3 7,5 4,7" fill="#FFA000"/>
+      </g>
+    </g>
+    <!-- AWS -->
+    <g id="i-aws">
+      <rect width="14" height="14" rx="3" fill="#232F3E"/>
+      <text x="7" y="10" class="icon-text" font-size="6" fill="#FF9900">aws</text>
+    </g>
+
+    <!-- Docker -->
+    <g id="i-docker">
+      <rect width="14" height="14" rx="3" fill="#2496ED"/>
+      <g transform="translate(1.5,4)">
+        <!-- whale body -->
+        <rect x="1" y="3" width="10" height="4.5" rx="1.5" fill="#FFF"/>
+        <!-- containers on top -->
+        <rect x="2" y="0.5" width="2" height="2.5" rx="0.3" fill="#FFF"/>
+        <rect x="5" y="0.5" width="2" height="2.5" rx="0.3" fill="#FFF"/>
+        <rect x="8" y="1.5" width="2" height="1.5" rx="0.3" fill="#FFF"/>
+      </g>
+    </g>
+    <!-- Vercel -->
+    <g id="i-vercel">
+      <circle cx="7" cy="7" r="7" fill="#000" stroke="#444" stroke-width="0.5"/>
+      <polygon points="7,3 11.5,11 2.5,11" fill="#FFF"/>
+    </g>
+    <!-- Git -->
+    <g id="i-git">
+      <rect width="14" height="14" rx="3" fill="#F05032"/>
+      <g transform="translate(3,3)">
+        <circle cx="4" cy="1.5" r="1.2" fill="none" stroke="#FFF" stroke-width="0.8"/>
+        <circle cx="2" cy="6" r="1.2" fill="none" stroke="#FFF" stroke-width="0.8"/>
+        <circle cx="6" cy="6" r="1.2" fill="none" stroke="#FFF" stroke-width="0.8"/>
+        <line x1="4" y1="2.7" x2="4" y2="4" stroke="#FFF" stroke-width="0.8"/>
+        <line x1="4" y1="4" x2="2" y2="4.8" stroke="#FFF" stroke-width="0.8"/>
+        <line x1="4" y1="4" x2="6" y2="4.8" stroke="#FFF" stroke-width="0.8"/>
+      </g>
+    </g>
+    <!-- GitHub Actions -->
+    <g id="i-gha">
+      <rect width="14" height="14" rx="3" fill="#2088FF"/>
+      <text x="7" y="10.5" class="icon-text" font-size="6" fill="#FFF">GA</text>
+    </g>
+    <!-- CI/CD -->
+    <g id="i-cicd">
+      <rect width="14" height="14" rx="3" fill="#4CAF50"/>
+      <g transform="translate(3,3.5)">
+        <circle cx="4" cy="4" r="3.5" fill="none" stroke="#FFF" stroke-width="0.8"/>
+        <polyline points="2,4 4,6 7,2.5" fill="none" stroke="#FFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <!-- Postman -->
+    <g id="i-postman">
+      <rect width="14" height="14" rx="3" fill="#FF6C37"/>
+      <text x="7" y="10.5" class="icon-text" font-size="7" fill="#FFF">Pm</text>
+    </g>
+    <!-- JWT -->
+    <g id="i-jwt">
+      <rect width="14" height="14" rx="3" fill="#000"/>
+      <text x="7" y="10.5" class="icon-text" font-size="6.5" fill="#D63AFF">JWT</text>
+    </g>
+  </defs>
+
+  <!-- ═══════════════ ROW 1: LANGUAGES ═══════════════ -->
+  <g class="r1">
+    <text x="28" y="32" class="section-label">LANGUAGES</text>
+
+    <!-- JavaScript -->
+    <rect x="28" y="42" width="102" height="30" class="pill-accent"/>
+    <use href="#i-js" x="36" y="50"/>
+    <text x="56" y="61" class="tech-name-accent">JavaScript</text>
+
+    <!-- TypeScript -->
+    <rect x="138" y="42" width="102" height="30" class="pill-accent"/>
+    <use href="#i-ts" x="146" y="50"/>
+    <text x="166" y="61" class="tech-name-accent">TypeScript</text>
+
+    <!-- Java -->
+    <rect x="248" y="42" width="66" height="30" class="pill"/>
+    <use href="#i-java" x="256" y="50"/>
+    <text x="276" y="61" class="tech-name">Java</text>
+
+    <!-- Python -->
+    <rect x="322" y="42" width="80" height="30" class="pill"/>
+    <use href="#i-py" x="330" y="50"/>
+    <text x="350" y="61" class="tech-name">Python</text>
   </g>
 
-  <line x1="28" y1="94" x2="772" y2="94" class="line-sep"/>
+  <line x1="28" y1="86" x2="772" y2="86" class="line-sep"/>
 
-  <!-- FRONTEND ROW -->
-  <g class="row-2">
-    <text x="28" y="118" class="section-label">FRONTEND</text>
+  <!-- ═══════════════ ROW 2: FRONTEND ═══════════════ -->
+  <g class="r2">
+    <text x="28" y="104" class="section-label">FRONTEND</text>
 
-    <rect x="28" y="128" width="72" height="30" class="tech-pill-accent"/>
-    <text x="44" y="147" class="tech-text-accent">React</text>
+    <!-- React -->
+    <rect x="28" y="114" width="78" height="30" class="pill-accent"/>
+    <use href="#i-react" x="36" y="122"/>
+    <text x="56" y="133" class="tech-name-accent">React</text>
 
-    <rect x="108" y="128" width="76" height="30" class="tech-pill-accent"/>
-    <text x="121" y="147" class="tech-text-accent">Next.js</text>
+    <!-- Next.js -->
+    <rect x="114" y="114" width="84" height="30" class="pill-accent"/>
+    <use href="#i-next" x="122" y="122"/>
+    <text x="142" y="133" class="tech-name-accent">Next.js</text>
 
-    <rect x="192" y="128" width="64" height="30" class="tech-pill"/>
-    <text x="205" y="147" class="tech-text">Redux</text>
+    <!-- Redux -->
+    <rect x="206" y="114" width="76" height="30" class="pill"/>
+    <use href="#i-redux" x="214" y="122"/>
+    <text x="234" y="133" class="tech-name">Redux</text>
 
-    <rect x="264" y="128" width="92" height="30" class="tech-pill"/>
-    <text x="276" y="147" class="tech-text">Tailwind CSS</text>
+    <!-- Tailwind CSS -->
+    <rect x="290" y="114" width="112" height="30" class="pill"/>
+    <use href="#i-tw" x="298" y="122"/>
+    <text x="318" y="133" class="tech-name">Tailwind CSS</text>
   </g>
 
-  <line x1="28" y1="174" x2="772" y2="174" class="line-sep"/>
+  <line x1="28" y1="158" x2="772" y2="158" class="line-sep"/>
 
-  <!-- BACKEND ROW -->
-  <g class="row-3">
-    <text x="28" y="198" class="section-label">BACKEND</text>
+  <!-- ═══════════════ ROW 3: BACKEND ═══════════════ -->
+  <g class="r3">
+    <text x="28" y="176" class="section-label">BACKEND</text>
 
-    <rect x="28" y="208" width="76" height="30" class="tech-pill-accent"/>
-    <text x="42" y="227" class="tech-text-accent">Node.js</text>
+    <!-- Node.js -->
+    <rect x="28" y="186" width="84" height="30" class="pill-accent"/>
+    <use href="#i-node" x="36" y="194"/>
+    <text x="56" y="205" class="tech-name-accent">Node.js</text>
 
-    <rect x="112" y="208" width="84" height="30" class="tech-pill"/>
-    <text x="124" y="227" class="tech-text">Express.js</text>
+    <!-- Express.js -->
+    <rect x="120" y="186" width="100" height="30" class="pill"/>
+    <use href="#i-express" x="128" y="194"/>
+    <text x="148" y="205" class="tech-name">Express.js</text>
 
-    <rect x="204" y="208" width="72" height="30" class="tech-pill"/>
-    <text x="216" y="227" class="tech-text">Django</text>
+    <!-- Django -->
+    <rect x="228" y="186" width="80" height="30" class="pill"/>
+    <use href="#i-django" x="236" y="194"/>
+    <text x="256" y="205" class="tech-name">Django</text>
 
-    <rect x="284" y="208" width="88" height="30" class="tech-pill"/>
-    <text x="296" y="227" class="tech-text">REST APIs</text>
+    <!-- REST APIs -->
+    <rect x="316" y="186" width="96" height="30" class="pill"/>
+    <use href="#i-api" x="324" y="194"/>
+    <text x="344" y="205" class="tech-name">REST APIs</text>
 
-    <rect x="380" y="208" width="90" height="30" class="tech-pill"/>
-    <text x="392" y="227" class="tech-text">WebSocket</text>
+    <!-- WebSocket -->
+    <rect x="420" y="186" width="98" height="30" class="pill"/>
+    <use href="#i-ws" x="428" y="194"/>
+    <text x="448" y="205" class="tech-name">WebSocket</text>
 
-    <rect x="478" y="208" width="80" height="30" class="tech-pill"/>
-    <text x="490" y="227" class="tech-text">Socket.io</text>
+    <!-- Socket.io -->
+    <rect x="526" y="186" width="92" height="30" class="pill"/>
+    <use href="#i-sio" x="534" y="194"/>
+    <text x="554" y="205" class="tech-name">Socket.io</text>
   </g>
 
-  <line x1="28" y1="254" x2="772" y2="254" class="line-sep"/>
+  <line x1="28" y1="230" x2="772" y2="230" class="line-sep"/>
 
-  <!-- DATA & CLOUD ROW -->
-  <g class="row-4">
-    <text x="28" y="278" class="section-label">DATABASES &amp; CLOUD</text>
+  <!-- ═══════════════ ROW 4: DATABASES & CLOUD ═══════════════ -->
+  <g class="r4">
+    <text x="28" y="248" class="section-label">DATABASES &amp; CLOUD</text>
 
-    <rect x="28" y="288" width="96" height="30" class="tech-pill-accent"/>
-    <text x="40" y="307" class="tech-text-accent">PostgreSQL</text>
+    <!-- PostgreSQL -->
+    <rect x="28" y="258" width="102" height="30" class="pill-accent"/>
+    <use href="#i-pg" x="36" y="266"/>
+    <text x="56" y="277" class="tech-name-accent">PostgreSQL</text>
 
-    <rect x="132" y="288" width="82" height="30" class="tech-pill"/>
-    <text x="144" y="307" class="tech-text">MongoDB</text>
+    <!-- MongoDB -->
+    <rect x="138" y="258" width="90" height="30" class="pill"/>
+    <use href="#i-mongo" x="146" y="266"/>
+    <text x="166" y="277" class="tech-name">MongoDB</text>
 
-    <rect x="222" y="288" width="64" height="30" class="tech-pill"/>
-    <text x="236" y="307" class="tech-text">MySQL</text>
+    <!-- MySQL -->
+    <rect x="236" y="258" width="74" height="30" class="pill"/>
+    <use href="#i-mysql" x="244" y="266"/>
+    <text x="264" y="277" class="tech-name">MySQL</text>
 
-    <rect x="294" y="288" width="72" height="30" class="tech-pill"/>
-    <text x="308" y="307" class="tech-text">Prisma</text>
+    <!-- Prisma -->
+    <rect x="318" y="258" width="80" height="30" class="pill"/>
+    <use href="#i-prisma" x="326" y="266"/>
+    <text x="346" y="277" class="tech-name">Prisma</text>
 
-    <rect x="374" y="288" width="76" height="30" class="tech-pill"/>
-    <text x="386" y="307" class="tech-text">Firebase</text>
+    <!-- Firebase -->
+    <rect x="406" y="258" width="88" height="30" class="pill"/>
+    <use href="#i-firebase" x="414" y="266"/>
+    <text x="434" y="277" class="tech-name">Firebase</text>
 
-    <rect x="458" y="288" width="60" height="30" class="tech-pill"/>
-    <text x="474" y="307" class="tech-text">AWS</text>
+    <!-- AWS -->
+    <rect x="502" y="258" width="64" height="30" class="pill"/>
+    <use href="#i-aws" x="510" y="266"/>
+    <text x="530" y="277" class="tech-name">AWS</text>
+  </g>
 
-    <rect x="526" y="288" width="72" height="30" class="tech-pill"/>
-    <text x="538" y="307" class="tech-text">Docker</text>
+  <line x1="28" y1="302" x2="772" y2="302" class="line-sep"/>
 
-    <rect x="606" y="288" width="62" height="30" class="tech-pill"/>
-    <text x="618" y="307" class="tech-text">CI/CD</text>
+  <!-- ═══════════════ ROW 5: TOOLS & DEVOPS ═══════════════ -->
+  <g class="r5">
+    <text x="28" y="320" class="section-label">TOOLS &amp; DEVOPS</text>
+
+    <!-- Docker -->
+    <rect x="28" y="330" width="80" height="30" class="pill"/>
+    <use href="#i-docker" x="36" y="338"/>
+    <text x="56" y="349" class="tech-name">Docker</text>
+
+    <!-- Vercel -->
+    <rect x="116" y="330" width="78" height="30" class="pill"/>
+    <use href="#i-vercel" x="124" y="338"/>
+    <text x="144" y="349" class="tech-name">Vercel</text>
+
+    <!-- Git -->
+    <rect x="202" y="330" width="58" height="30" class="pill"/>
+    <use href="#i-git" x="210" y="338"/>
+    <text x="230" y="349" class="tech-name">Git</text>
+
+    <!-- GitHub Actions -->
+    <rect x="268" y="330" width="124" height="30" class="pill"/>
+    <use href="#i-gha" x="276" y="338"/>
+    <text x="296" y="349" class="tech-name">GitHub Actions</text>
+
+    <!-- CI/CD -->
+    <rect x="400" y="330" width="72" height="30" class="pill"/>
+    <use href="#i-cicd" x="408" y="338"/>
+    <text x="428" y="349" class="tech-name">CI/CD</text>
+
+    <!-- Postman -->
+    <rect x="480" y="330" width="86" height="30" class="pill"/>
+    <use href="#i-postman" x="488" y="338"/>
+    <text x="508" y="349" class="tech-name">Postman</text>
+
+    <!-- JWT -->
+    <rect x="574" y="330" width="62" height="30" class="pill"/>
+    <use href="#i-jwt" x="582" y="338"/>
+    <text x="602" y="349" class="tech-name">JWT</text>
   </g>
 </svg>
