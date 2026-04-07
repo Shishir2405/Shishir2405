@@ -209,7 +209,7 @@
   <text x="400" y="135" class="subtitle">&lt; FULL STACK DEVELOPER /&gt;</text>
 
   <!-- Tagline -->
-  <text x="400" y="168" class="tagline">// building scalable systems &middot; 10,000+ users &middot; 2x SIH National Winner</text>
+<text x="400" y="168" class="tagline">// building scalable systems &#183; 10,000+ users &#183; 2x SIH National Winner</text>
 
   <!-- Floating particles -->
   <circle cx="90" cy="55" r="2" class="particle p1"/>
