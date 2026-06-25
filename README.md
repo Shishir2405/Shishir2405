@@ -1,272 +1,195 @@
-<!-- HEADER: Cyberpunk Glitch Animation -->
+<!-- ───────────────────────── BANNER ───────────────────────── -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/header.svg" alt="Shishir Shrivastava" width="800"/>
+  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/banner.png" alt="Shishir Shrivastava — Full Stack Developer · AI Builder · Problem Solver" width="100%"/>
 </div>
 
 <br/>
 
-
-<br/>
-
-<!-- BADGES ROW -->
+<!-- ───────────────────────── BADGES ───────────────────────── -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shishir2405&style=for-the-badge&color=0d1117&labelColor=161b22&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Shishir2405&style=flat-square&color=3fb950&labelColor=0d1117&label=PROFILE+VIEWS" alt="Profile Views"/>
   &nbsp;
-  <a href="https://github.com/Shishir2405?tab=followers"><img src="https://img.shields.io/github/followers/Shishir2405?style=for-the-badge&color=0d1117&labelColor=161b22&logo=github&label=Followers" alt="Followers"/></a>
+  <a href="https://github.com/Shishir2405?tab=followers"><img src="https://img.shields.io/github/followers/Shishir2405?style=flat-square&color=3fb950&labelColor=0d1117&logo=github&logoColor=white&label=FOLLOWERS" alt="Followers"/></a>
   &nbsp;
-  <a href="https://github.com/Shishir2405?tab=repositories"><img src="https://img.shields.io/github/stars/Shishir2405?style=for-the-badge&color=0d1117&labelColor=161b22&logo=github&label=Total+Stars" alt="Stars"/></a>
+  <a href="https://github.com/Shishir2405?tab=repositories"><img src="https://img.shields.io/github/stars/Shishir2405?style=flat-square&color=3fb950&labelColor=0d1117&logo=github&logoColor=white&label=STARS" alt="Stars"/></a>
 </div>
 
 <br/>
 
-<!-- SOCIAL LINKS -->
+<!-- ───────────────────────── SOCIALS ───────────────────────── -->
 <div align="center">
-  <a href="https://shishir24.in"><img src="https://img.shields.io/badge/shishir24.in-000?style=flat&logo=safari&logoColor=white" alt="Portfolio"/></a>&nbsp;
-  <a href="https://linkedin.com/in/shishirshrivastava2405"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:shishirshrivastava30@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
-  <a href="https://github.com/Shishir2405"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
-  <a href="https://x.com/shishir_2405"><img src="https://img.shields.io/badge/X-000?style=flat&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://shishir24.in"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=safari&logoColor=3fb950" alt="Portfolio"/></a>&nbsp;
+  <a href="https://linkedin.com/in/shishirshrivastava2405"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>&nbsp;
+  <a href="mailto:shishirshrivastava30@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>&nbsp;
+  <a href="https://x.com/shishir_2405"><img src="https://img.shields.io/badge/X-0d1117?style=flat-square&logo=x&logoColor=white" alt="X"/></a>&nbsp;
+  <a href="https://github.com/Shishir2405"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
 </div>
 
+<br/>
 
+<!-- ───────────────────────── INTRO ───────────────────────── -->
+<p align="center">
+  I'm a <b>full-stack engineer</b> who ships products from <code>0 → 1</code> — owning system design, core architecture, and production reliability in fast-moving, high-ownership teams.
+  <br/>
+  My work sits at the intersection of <b>frontend architecture</b>, <b>backend systems</b>, and <b>AI-driven workflows</b>, and I care about performance, maintainability, and turning complex systems into products that feel simple and fast.
+  <br/><br/>
+  Currently architecting hiring and freelance infrastructure at <b>Unjob.ai</b> — systems now used by <b>200,000+ people</b> — alongside a Ministry-of-Power govt platform. <b>2× Smart India Hackathon National Winner.</b>
+</p>
 
----
+<br/>
 
-<!-- ABOUT TERMINAL -->
+<!-- ───────────────────────── ABOUT / TERMINAL ───────────────────────── -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/chat.svg" alt="About Shishir" width="800"/>
+  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/about.svg" alt="whoami — Shishir Shrivastava" width="820"/>
 </div>
 
----
+<br/>
 
-<!-- VS CODE EDITOR ANIMATION -->
-<h3 align="center">The Config File</h3>
+<!-- ───────────────────────── EXPERIENCE ───────────────────────── -->
+## &nbsp;Experience
+
+<p>
+  ✦ &nbsp;<a href="https://unjob.ai"><b>Unjob.ai</b></a> &nbsp;<i>(Full Stack Developer)</i> —
+  Led <b>end-to-end MVP development</b> of a next-gen freelance & hiring SaaS — gig marketplace, jobs portal, payment integrations, and real-time notifications. Architected scalable frontend, backend, and AWS infrastructure (EC2, S3, SES) now supporting <b>200,000+ users</b>.
+  <br/>
+  <code>Next.js</code> <code>TypeScript</code> <code>Node.js</code> <code>PostgreSQL</code> <code>AWS</code> <code>Socket.io</code>
+</p>
+
+<p>
+  ✦ &nbsp;<b>THDC India Ltd — Ministry of Power</b> &nbsp;<i>(Project Manager / Lead Full Stack Developer)</i> —
+  Engineered a secure document-management portal for the Ministry of Power, serving <b>5,000+ government employees</b> with a role-based admin panel and <b>40% faster</b> document retrieval. Owned frontend architecture through to deployment.
+  <br/>
+  <code>Next.js</code> <code>TypeScript</code> <code>Django</code> <code>PostgreSQL</code> <code>REST API</code>
+</p>
+
+<p>
+  ✦ &nbsp;<b>Botmartz IT Solution</b> &nbsp;<i>(Full Stack Developer)</i> —
+  Built the complete <b>seller panel, admin dashboard, and customer-facing storefront</b> for the Anugami e-commerce system. Integrated Django REST APIs for catalogs, orders, and payments, with <b>Razorpay</b> for secure checkout.
+  <br/>
+  <code>Next.js</code> <code>Django</code> <code>Tailwind CSS</code> <code>REST API</code> <code>Razorpay</code>
+</p>
+
+<p>
+  ✦ &nbsp;<b>Mobiweb Global Solution</b> &nbsp;<i>(Full Stack Developer)</i> —
+  Engineered admin & user dashboards for a matrimony platform serving <b>500+ active users</b>. Shipped Razorpay payments, real-time chat, and <b>WebRTC video calling</b> at <b>99.9% uptime</b> with secure auth and matchmaking logic.
+  <br/>
+  <code>React</code> <code>Tailwind CSS</code> <code>WebRTC</code> <code>Socket.io</code> <code>JWT</code>
+</p>
+
+<br/>
+
+<!-- ───────────────────────── TECH STACK ───────────────────────── -->
+## &nbsp;Tech Stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/coding.svg" alt="Shishir's Config" width="800"/>
+  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/stack.svg" alt="Tech Stack" width="820"/>
 </div>
 
----
+<br/>
 
-### What I'm Currently Building
+<!-- ───────────────────────── PROJECTS ───────────────────────── -->
+## &nbsp;Selected Projects
 
-```typescript
-const currentFocus = {
-  roles: [
-    { company: "THDC India Ltd (Ministry of Power)", role: "Lead Full Stack Developer" },
-    { company: "Unjob.ai", role: "Full Stack Developer" },
-  ],
-  building: ["Govt document management portal", "AI-powered hiring platform"],
-  stack:    ["Next.js", "TypeScript", "Node.js", "Django", "PostgreSQL", "AWS"],
-  impact:   "15,000+ users across government & industry",
-  status:   "shipping fast"
-};
-```
+<p>
+  ✦ &nbsp;<a href="https://github.com/Shishir2405/1Solution"><b>1Solution</b></a> —
+  Full-stack MERN student platform with real-time chat, video calls, discussion forums, and an AI chatbot. Integrated AI mock-interviews and resume parsing, driving a <b>25% lift in engagement</b>.
+  <br/>
+  <code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Tailwind</code>
+</p>
 
----
+<p>
+  ✦ &nbsp;<a href="https://github.com/Shishir2405/Healverse"><b>Healverse</b></a> —
+  AI-powered remote healthcare monitoring platform with ESP32-based IoT sensors streaming real-time heart rate, SpO₂, and ECG data into a live analytics dashboard with alerts and patient monitoring.
+  <br/>
+  <code>Next.js</code> <code>TypeScript</code> <code>Prisma</code> <code>Arduino Cloud</code> <code>Hugging Face</code>
+</p>
 
-### Experience
+<br/>
 
-<table>
+<!-- ───────────────────────── ACHIEVEMENTS ───────────────────────── -->
+## &nbsp;Achievements
+
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-<h4>THDC India Limited (Ministry of Power)</h4>
-<sub>Lead Full Stack Developer &nbsp;|&nbsp; Sep 2025 — Present &nbsp;|&nbsp; Remote, Indore</sub>
+**🏆 &nbsp;SIH 2025 — ISRO**
+National Winner. Architected an AI-powered solution using Clean Architecture to secure **Rank 1 nationwide**.
 
-Engineered a secure document management portal used by **5,000+ Ministry of Power employees**, reducing document retrieval time by **40%** with a role-based Next.js admin panel.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" alt="Django"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat&logo=postman&logoColor=white" alt="REST API"/>
-</p>
+**🏆 &nbsp;SIH 2024 — Ministry of Power**
+National Winner. Secure portal for **5,000+ users**, now under **official govt. implementation** — 40% latency reduction.
 
 </td>
 <td width="50%" valign="top">
 
-<h4>Unjob.ai</h4>
-<sub>Full Stack Developer &nbsp;|&nbsp; Aug 2025 — Present &nbsp;|&nbsp; On-site, Noida</sub>
+**🥇 &nbsp;Hack the Mountains 5.0**
+Winner — Education & TinyMCE tracks. Built a modular learning platform with rich-text integration.
 
-Led **end-to-end MVP development**: jobs portal, payment integrations, real-time notifications. Designed scalable infra on AWS supporting **10,000+ users**.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white" alt="Socket.io"/>
-</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h4>Botmartz IT Solution</h4>
-<sub>Full Stack Developer Intern &nbsp;|&nbsp; Mar 2025 — Aug 2025 &nbsp;|&nbsp; Hybrid, Indore</sub>
-
-Developed the complete **seller panel, admin dashboard, and customer-facing platform** for the Anugami e-commerce system. Integrated Django REST APIs + Razorpay payments.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" alt="Django"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-<img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat&logo=postman&logoColor=white" alt="REST API"/>
-<img src="https://img.shields.io/badge/Razorpay-0C2451?style=flat&logo=razorpay&logoColor=white" alt="Razorpay"/>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-<h4>Mobiweb Global Solution</h4>
-<sub>Frontend Developer Intern &nbsp;|&nbsp; Dec 2024 — Mar 2025 &nbsp;|&nbsp; Remote, New Delhi</sub>
-
-Engineered admin & user dashboards for a matrimony platform serving **500+ active users**. Deployed Razorpay, real-time chat, and **WebRTC video calling** at **99.9% uptime**.
-
-<p>
-<img src="https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-<img src="https://img.shields.io/badge/WebRTC-333?style=flat&logo=webrtc&logoColor=white" alt="WebRTC"/>
-<img src="https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white" alt="Socket.io"/>
-<img src="https://img.shields.io/badge/Razorpay-0C2451?style=flat&logo=razorpay&logoColor=white" alt="Razorpay"/>
-<img src="https://img.shields.io/badge/JWT-000?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-</p>
+**🎓 &nbsp;Principal's Award — Academic Rank 1**
+**1st in batch for 3 consecutive years.** CGPA **9.47 / 10**.
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-### Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/Shishir2405/1Solution">1Solution</a></h4>
-
-Full-stack MERN student platform with real-time chat, video calls, AI chatbot, mock interviews, and resume parsing. **25% engagement increase.**
-
-<p>
-<img src="https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node"/>
-<img src="https://img.shields.io/badge/Express-000?style=flat&logo=express&logoColor=white" alt="Express"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/Shishir2405/Healverse">Healverse</a></h4>
-
-AI-powered remote healthcare monitoring with ESP32 IoT sensors streaming real-time heart rate, SpO2, and ECG data.
-
-<p>
-<img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=next.js&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma"/>
-<img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" alt="Arduino"/>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=000" alt="HuggingFace"/>
-</p>
-
-</td>
-</tr>
-</table>
-
----
-
-### Tech Stack
+<!-- ───────────────────────── GITHUB STATS ───────────────────────── -->
+## &nbsp;GitHub Analytics
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/stack.svg" alt="Tech Stack" width="800"/>
-</div>
-
----
-
-### Achievements
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**SIH 2025 — ISRO**
-National Winner. AI-powered solution using Clean Architecture. **Rank 1 nationwide.**
-
-**SIH 2024 — Ministry of Power**
-National Winner. Secure portal for **5,000+ users**, under **Official Govt. Implementation.** 40% latency reduction.
-
-</td>
-<td width="50%" valign="top">
-
-**Hack the Mountains 5.0**
-Winner in Education & TinyMCE tracks. Built modular learning platform with rich-text integration.
-
-**Principal's Award — Academic Rank 1**
-**1st Rank** in batch for 3 consecutive years. CGPA: **9.47/10.**
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- GITHUB STATS -->
-<h3 align="center">GitHub Analytics</h3>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shishir2405&show_icons=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=79c0ff&text_color=e6edf3&rank_icon=github" height="200" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Shishir2405&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=8b949e&rank_icon=github" alt="GitHub Stats"/>
   &nbsp;
-  <img src="https://streak-stats.demolab.com?user=Shishir2405&theme=github-dark-blue&hide_border=true&background=0d1117&ring=7ee787&fire=e6edf3&currStreakLabel=e6edf3&sideLabels=8b949e&dates=6e7681" height="200" alt="GitHub Streak"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=Shishir2405&hide_border=true&background=0d1117&ring=3fb950&fire=58a6ff&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&stroke=21262d&currStreakNum=e6edf3&sideNums=e6edf3&dayLabels=8b949e&excludeDaysLabel=8b949e" alt="GitHub Streak"/>
 </div>
 
----
+<br/>
 
-<!-- SNAKE CONTRIBUTION -->
-<h3 align="center">Contribution Snake</h3>
+<!-- TROPHIES -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Shishir2405&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,Repositories,Stars,Followers,PullRequest,Issues" alt="GitHub Trophies"/>
+</div>
 
+<br/>
+
+<!-- ───────────────────────── SNAKE ───────────────────────── -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shishir2405/Shishir2405/output/snake.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shishir2405/Shishir2405/output/snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/output/snake.svg" alt="Snake animation" width="100%"/>
+    <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/output/snake.svg" alt="Contribution snake" width="100%"/>
   </picture>
 </div>
 
----
+<br/>
 
-### Community & Mentorship
+<!-- ───────────────────────── COMMUNITY ───────────────────────── -->
+## &nbsp;Community & Mentorship
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p>
+  ✦ &nbsp;<b>Hackathon Mentor</b> — Mentored teams at <b>Hack4Delhi</b> and other national-level hackathons in full-stack architecture, debugging, and product development.
+</p>
+<p>
+  ✦ &nbsp;<b>Web Dev Lead — E-Cell IPSA & TEDx IPSA</b> — Led the web team to design and deploy multiple community platforms, including the official <b>TEDx IPSA</b> event website.
+</p>
 
-**Hackathon Mentor**
-Mentored teams at **Hack4Delhi** and other national-level hackathons in full-stack architecture, debugging, and product development.
+<br/>
 
-</td>
-<td width="50%" valign="top">
+<!-- ───────────────────────── LET'S CONNECT ───────────────────────── -->
+## &nbsp;Let's Build Something
 
-**Web Dev Lead — E-Cell IPSA & TEDx IPSA**
-Led web development team to design and deploy community platforms including the official **TEDx IPSA event website.**
+<p align="center">
+  I'm always open to <b>meaningful collaborations</b>, ambitious product ideas, and conversations about systems that affect real people at scale.
+</p>
 
-</td>
-</tr>
-</table>
-
----
-
-<!-- FOOTER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=100&section=footer" width="100%" alt="Footer"/>
+  <a href="mailto:shishirshrivastava30@gmail.com"><img src="https://img.shields.io/badge/Say_Hello-3fb950?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email"/></a>&nbsp;
+  <a href="https://linkedin.com/in/shishirshrivastava2405"><img src="https://img.shields.io/badge/Let's_Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://shishir24.in"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=safari&logoColor=3fb950" alt="Portfolio"/></a>
 </div>
 
+<br/>
+
+<!-- ───────────────────────── FOOTER ───────────────────────── -->
 <div align="center">
-  <sub>Built with caffeine and curiosity &nbsp;|&nbsp; <a href="https://shishir24.in">shishir24.in</a></sub>
+  <sub>Building things that work in the real world &nbsp;·&nbsp; <a href="https://shishir24.in">shishir24.in</a></sub>
 </div>

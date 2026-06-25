@@ -1,0 +1,58 @@
+<svg width="820" height="312" viewBox="0 0 820 312" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+
+    .win    { fill: #0d1117; }
+    .stroke { fill: none; stroke: #21262d; stroke-width: 1; }
+    .bar    { fill: #161b22; }
+    .bar-ln { stroke: #21262d; stroke-width: 1; }
+
+    text { font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace; font-size: 14px; }
+
+    .title  { font-size: 12px; fill: #6e7681; letter-spacing: 0.5px; }
+    .prompt { fill: #3fb950; font-weight: 700; }
+    .pdir   { fill: #58a6ff; }
+    .cmd    { fill: #e6edf3; font-weight: 500; }
+    .out    { fill: #8b949e; }
+    .key    { fill: #e6edf3; font-weight: 700; }
+    .accent { fill: #58a6ff; font-weight: 700; }
+    .arrow  { fill: #3fb950; font-weight: 700; }
+
+    .row { opacity: 0; animation: fade 0.5s ease forwards; }
+    .r1 { animation-delay: 0.2s; } .r2 { animation-delay: 0.5s; }
+    .r3 { animation-delay: 0.75s; } .r4 { animation-delay: 1.1s; }
+    .r5 { animation-delay: 1.4s; } .r6 { animation-delay: 1.65s; }
+    .r7 { animation-delay: 1.9s; } .r8 { animation-delay: 2.25s; }
+
+    .cursor { fill: #3fb950; opacity: 0; animation: blink 1.1s steps(1) infinite; animation-delay: 2.4s; }
+
+    @keyframes fade  { to { opacity: 1; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="819" height="311" rx="12" class="win"/>
+  <rect x="0.5" y="0.5" width="819" height="311" rx="12" class="stroke"/>
+
+  <!-- title bar -->
+  <path d="M0 12 A12 12 0 0 1 12 0 H808 A12 12 0 0 1 820 12 V44 H0 Z" class="bar"/>
+  <line x1="0" y1="44" x2="820" y2="44" class="bar-ln"/>
+  <circle cx="22" cy="22" r="5.5" fill="#ff5f56"/>
+  <circle cx="42" cy="22" r="5.5" fill="#ffbd2e"/>
+  <circle cx="62" cy="22" r="5.5" fill="#27c93f"/>
+  <text x="410" y="26" text-anchor="middle" class="title">shishir@dev — zsh</text>
+
+  <!-- body -->
+  <text x="28" y="84" class="row r1"><tspan class="prompt">➜</tspan><tspan class="pdir">  ~</tspan><tspan class="cmd">  whoami</tspan></text>
+
+  <text x="28" y="114" class="row r2"><tspan class="key">Shishir Shrivastava</tspan><tspan class="out"> — Full Stack Engineer @ Unjob.ai</tspan></text>
+  <text x="28" y="136" class="row r3"><tspan class="out">Architecting scalable web systems used by </tspan><tspan class="accent">200,000+</tspan><tspan class="out"> people.</tspan></text>
+
+  <text x="28" y="176" class="row r4"><tspan class="prompt">➜</tspan><tspan class="pdir">  ~</tspan><tspan class="cmd">  cat focus.txt</tspan></text>
+  <text x="28" y="206" class="row r5"><tspan class="arrow">→</tspan><tspan class="out">  End-to-end product engineering — frontend, backend &amp; infra</tspan></text>
+  <text x="28" y="228" class="row r6"><tspan class="arrow">→</tspan><tspan class="out">  Next.js · TypeScript · Node.js · PostgreSQL · AWS</tspan></text>
+  <text x="28" y="250" class="row r7"><tspan class="arrow">→</tspan><tspan class="out">  2× Smart India Hackathon National Winner · 9.47 CGPA</tspan></text>
+
+  <text x="28" y="288" class="row r8"><tspan class="prompt">➜</tspan><tspan class="pdir">  ~</tspan></text>
+  <rect x="62" y="277" width="9" height="15" class="cursor"/>
+</svg>
