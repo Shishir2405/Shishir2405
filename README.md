@@ -145,10 +145,7 @@ Winner — Education & TinyMCE tracks. Built a modular learning platform with ri
 
 <br/>
 
-<!-- TROPHIES -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shishir2405&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,Repositories,Stars,Followers,PullRequest,Issues" alt="GitHub Trophies"/>
-</div>
+
 
 <br/>
 
