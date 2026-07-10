@@ -1,6 +1,11 @@
-<!-- ───────────────────────── BANNER ───────────────────────── -->
+<!-- ───────────────────────── PROFILE CARD (ASCII face · dark/light) ───────────────────────── -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/banner.png" alt="Shishir Shrivastava — Full Stack Developer · AI Builder · Problem Solver" width="100%"/>
+  <a href="https://github.com/Shishir2405">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/dark_mode.svg"/>
+      <img alt="Shishir Shrivastava — Full-Stack Developer · AI Builder · 2× SIH National Winner" src="https://raw.githubusercontent.com/Shishir2405/Shishir2405/main/light_mode.svg" width="100%"/>
+    </picture>
+  </a>
 </div>
 
 <br/>
