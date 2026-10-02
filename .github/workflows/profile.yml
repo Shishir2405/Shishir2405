@@ -29,8 +29,8 @@ jobs:
 
       - name: Update SVG stats
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || github.token }}
+          USER_NAME: ${{ secrets.USER_NAME || github.repository_owner }}
         run: python today.py
 
       - name: Commit changes
