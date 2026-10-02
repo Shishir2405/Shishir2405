@@ -10,8 +10,13 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
 jobs:
   build:
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -29,8 +34,9 @@ jobs:
 
       - name: Update SVG stats
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          # Falls back to the built-in token / repo owner when the custom secrets are missing or empty
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME || github.repository_owner }}
         run: python today.py
 
       - name: Commit changes
@@ -39,4 +45,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git commit -m "Update profile stats" || echo "No changes to commit"
+          git pull --rebase origin main || true
           git push
